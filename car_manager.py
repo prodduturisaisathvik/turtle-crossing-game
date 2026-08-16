@@ -8,7 +8,7 @@ flow=True
 screen=Screen()
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
-cor=[0,40,-40,80,-80,120,-120,160,-160,200,-200,240,-240,280,-280]
+cor=[0,40,-40,80,-80,120,-120,160,-160,200,-200,240,-240,-280]
 collection=[]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10

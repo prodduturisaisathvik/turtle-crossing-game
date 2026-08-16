@@ -2,12 +2,15 @@ import time
 from turtle import Screen
 from player import Player
 from car_manager import CarManager
-from scoreboard import Scoreboard
+from scoreboard import Scoreboard, border,roads,lines
 from car_manager import collection
 game_is_on = True
 
 
 screen = Screen()
+bor=border()
+road=roads()
+line=lines()
 screen.setup(width=600, height=600)
 screen.tracer(0)
 player=Player()
